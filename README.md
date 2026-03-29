@@ -1,27 +1,36 @@
-# ashwish-checkout | Project Blueprint
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-**Objective:** A stark, ultra-minimalist single-page site to sell exactly 16 premium license keys for $1.00 USD each.
+## Getting Started
 
-### 🛠 Tech Requirements
-* **Frontend:** Extreme minimalism. White background (#FFFFFF), black text (#000000), Inter font.
-* **Payments:** Stripe Payment Element (Inline).
-* **Inventory:** Strict 16-key limit. Atomic updates required—never sell the same key twice.
-* **Admin:** Private `/admin` route with a table of sold keys and an **Instant Refund** button that triggers a Stripe refund and resets the key status to "Available".
+First, run the development server:
 
-### 🔑 The Master Key List
-1. eD8yU2qW5aH0oP9mN1xZ7cK4vL3jF6tB9rS0gI5uY2hT8eR1wQ7pA4k9
-2. rT4kV7yI0sM2zX9qF5cW8bP1nG6hD3oJ9aL2vE8uR5tY1mN7xZ0cK4a2
-3. jF1hY6uE9qW3sA7dG0kP4lZ8xV2cM5nB9vC1mX7zL4kJ0hG6fD3sA8x5
-4. aS6dF1gH9jK4lP0oI5uY6tR2eW9qQ1wE8rT2yU7iO3pA2sD7fG3hJ0v8
-5. mN5bV8cC3xZ6sA9pD4oI0uY5tR2eW7qQ1wE8rT2yU7iO3pA2sD7fG3m1
-6. pQ1wE8rT2yU7iO3sA1fG0hJ5kR4tY9uI2oP7lK3jH8gF3dS7aA2pP0n4
-7. cK4vL3jF6tB9rS0gI5uY2hT8eR1wQ7pA4eD8yU2qW5aH0oP9mN1xZ7b6
-8. xZ0cK4vL3jF6tB9rS0gI5uY2hT8eR1wQ7pA4eD8yU2qW5aH0oP9mN1c3
-9. tY1mN7xZ0cK4vL3jF6tB9rS0gI5uY2hT8eR1wQ7pA4eD8yU2qW5aH0v2
-10. bP1nG6hD3oJ9aL2vE8uR5tY1mN7xZ0cK4vL3jF6tB9rS0gI5uY2hT8y7
-11. kP4lZ8xV2cM5nB9vC1mX7zL4kJ0hG6fD3sA8jF1hY6uE9qW3sA7dG0z9
-12. uY6tR2eW9qQ1wE8rT2yU7iO3pA2sD7fG3hJ0aS6dF1gH9jK4lP0oI5f1
-13. iO3pA2sD7fG3hJ0kL5zX6cV9bN4mQ1wE8rT2yU7mN5bV8cC3xZ6sA9d4
-14. hJ5kR4tY9uI2oP7lK3jH8gF3dS7aA2pP0pQ1wE8rT2yU7iO3sA1fG0h7
-15. gI5uY2hT8eR1wQ7pA4eD8yU2qW5aH0oP9mN1cK4vL3jF6tB9rS0xZ7j2
-16. wQ7pA4eD8yU2qW5aH0oP9mN1cK4vL3jF6tB9rS0gI5uY2hT8eR1xZ0p8
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
